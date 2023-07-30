@@ -1,12 +1,14 @@
 ﻿using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Columns;
-using BenchmarkDotNet.Configs;
-using BenchmarkDotNet.Reports;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace BenchmarkExample;
 
-[Config(typeof(StyleConfig))]
-public class SleepCompare
+[Config(typeof(StyleConfig2))]
+public class SleepCompare2
 {
 
     [Benchmark(Baseline = true)]
