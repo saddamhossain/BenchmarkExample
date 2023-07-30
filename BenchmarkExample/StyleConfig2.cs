@@ -4,6 +4,7 @@ using BenchmarkDotNet.Reports;
 
 namespace BenchmarkExample;
 
+
 public class StyleConfig2 : ManualConfig
 {
     public StyleConfig2()
