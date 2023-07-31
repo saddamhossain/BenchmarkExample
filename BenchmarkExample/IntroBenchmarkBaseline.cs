@@ -5,7 +5,7 @@ namespace BenchmarkExample;
 public class IntroBenchmarkBaseline
 {
     [Benchmark]
-    public void Time50()
+    public static void Time50()
     {
         Thread.Sleep(50);
     }
