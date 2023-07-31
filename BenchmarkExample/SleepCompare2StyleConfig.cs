@@ -4,10 +4,9 @@ using BenchmarkDotNet.Reports;
 
 namespace BenchmarkExample;
 
-
-public class StyleConfig2 : ManualConfig
+public class SleepCompare2StyleConfig : ManualConfig
 {
-    public StyleConfig2()
+    public SleepCompare2StyleConfig()
     {
         SummaryStyle = SummaryStyle.Default.WithRatioStyle(RatioStyle.Percentage);
     }

@@ -1,14 +1,10 @@
 ﻿using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Columns;
-using BenchmarkDotNet.Configs;
-using BenchmarkDotNet.Reports;
 
 namespace BenchmarkExample;
 
-[Config(typeof(StyleConfig))]
+[Config(typeof(SleepCompareStyleConfig))]
 public class SleepCompare
 {
-
     [Benchmark(Baseline = true)]
     public void Baseline()
     {
