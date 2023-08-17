@@ -1,6 +1,7 @@
 ﻿namespace BenchmarkExample;
 
 // 2019-12-13T16:33:06Z
+
 public class DateParser
 {
     public int GetYearFromDateTime(string dateTimeAsString)
